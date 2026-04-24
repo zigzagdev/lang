@@ -4,12 +4,12 @@ editLink: false
 
 # nl
 
-##### All missed: 4
+##### All missed: 3
 
 
 ### json
 
-##### Missing: 2
+##### Missing: 1
 
 <table width="100%">
 <tr><th width="50%">
@@ -21,15 +21,6 @@ Key
 Value
 
 </th></tr>
-<tr><td width="50%">
-
-Reset your password
-
-</td><td width="50%">
-
-Reset your password
-
-</td></tr>
 <tr><td width="50%">
 
 Verify your email address
