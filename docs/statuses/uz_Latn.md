@@ -4,7 +4,7 @@ editLink: false
 
 # uz_Latn
 
-##### All missed: 62
+##### All missed: 66
 
 
 ### json
@@ -128,7 +128,7 @@ Verify your email address
 
 ### php-inline
 
-##### Missing: 39
+##### Missing: 41
 
 <table width="100%">
 <tr><th width="50%">
@@ -160,11 +160,29 @@ This field is invalid.
 </td></tr>
 <tr><td width="50%">
 
+array_keys
+
+</td><td width="50%">
+
+This field must only contain the following keys: :values.
+
+</td></tr>
+<tr><td width="50%">
+
 ascii
 
 </td><td width="50%">
 
 This field must only contain single-byte alphanumeric characters and symbols.
+
+</td></tr>
+<tr><td width="50%">
+
+base64
+
+</td><td width="50%">
+
+This field must be a valid Base64 string.
 
 </td></tr>
 <tr><td width="50%">
@@ -499,7 +517,7 @@ This field must be uppercase.
 
 ### php
 
-##### Missing: 12
+##### Missing: 14
 
 <table width="100%">
 <tr><th width="50%">
@@ -511,6 +529,24 @@ Key
 Value
 
 </th></tr>
+<tr><td width="50%">
+
+array_keys
+
+</td><td width="50%">
+
+The :attribute field must only contain the following keys: :values.
+
+</td></tr>
+<tr><td width="50%">
+
+base64
+
+</td><td width="50%">
+
+The :attribute field must be a valid Base64 string.
+
+</td></tr>
 <tr><td width="50%">
 
 encoding

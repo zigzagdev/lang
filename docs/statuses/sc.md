@@ -4,7 +4,7 @@ editLink: false
 
 # sc
 
-##### All missed: 12
+##### All missed: 16
 
 
 ### json
@@ -119,7 +119,7 @@ Verify your email address
 
 ### php-inline
 
-##### Missing: 1
+##### Missing: 3
 
 <table width="100%">
 <tr><th width="50%">
@@ -131,6 +131,24 @@ Key
 Value
 
 </th></tr>
+<tr><td width="50%">
+
+array_keys
+
+</td><td width="50%">
+
+This field must only contain the following keys: :values.
+
+</td></tr>
+<tr><td width="50%">
+
+base64
+
+</td><td width="50%">
+
+This field must be a valid Base64 string.
+
+</td></tr>
 <tr><td width="50%">
 
 encoding
@@ -148,7 +166,7 @@ This field must be encoded in :encoding.
 
 ### php
 
-##### Missing: 1
+##### Missing: 3
 
 <table width="100%">
 <tr><th width="50%">
@@ -160,6 +178,24 @@ Key
 Value
 
 </th></tr>
+<tr><td width="50%">
+
+array_keys
+
+</td><td width="50%">
+
+The :attribute field must only contain the following keys: :values.
+
+</td></tr>
+<tr><td width="50%">
+
+base64
+
+</td><td width="50%">
+
+The :attribute field must be a valid Base64 string.
+
+</td></tr>
 <tr><td width="50%">
 
 encoding

@@ -4,7 +4,7 @@ editLink: false
 
 # de_AT
 
-##### All missed: 1168
+##### All missed: 1172
 
 
 ### json-inline
@@ -4698,20 +4698,20 @@ Passkey verification session expired. Please try again.
 </td></tr>
 <tr><td width="50%">
 
-password
+Password
 
 </td><td width="50%">
 
-password
+Password
 
 </td></tr>
 <tr><td width="50%">
 
-Password
+password
 
 </td><td width="50%">
 
-Password
+password
 
 </td></tr>
 <tr><td width="50%">
@@ -8016,7 +8016,7 @@ Zip / Postal Code
 
 ### php-inline
 
-##### Missing: 136
+##### Missing: 138
 
 <table width="100%">
 <tr><th width="50%">
@@ -8120,6 +8120,15 @@ This field must be an array.
 </td></tr>
 <tr><td width="50%">
 
+array_keys
+
+</td><td width="50%">
+
+This field must only contain the following keys: :values.
+
+</td></tr>
+<tr><td width="50%">
+
 ascii
 
 </td><td width="50%">
@@ -8134,6 +8143,15 @@ attached
 </td><td width="50%">
 
 This field is already attached.
+
+</td></tr>
+<tr><td width="50%">
+
+base64
+
+</td><td width="50%">
+
+This field must be a valid Base64 string.
 
 </td></tr>
 <tr><td width="50%">
@@ -9260,7 +9278,7 @@ This field must be a valid UUID.
 
 ### php
 
-##### Missing: 147
+##### Missing: 149
 
 <table width="100%">
 <tr><th width="50%">
@@ -9364,6 +9382,15 @@ The :attribute field must be an array.
 </td></tr>
 <tr><td width="50%">
 
+array_keys
+
+</td><td width="50%">
+
+The :attribute field must only contain the following keys: :values.
+
+</td></tr>
+<tr><td width="50%">
+
 ascii
 
 </td><td width="50%">
@@ -9378,6 +9405,15 @@ attached
 </td><td width="50%">
 
 This :attribute is already attached.
+
+</td></tr>
+<tr><td width="50%">
+
+base64
+
+</td><td width="50%">
+
+The :attribute field must be a valid Base64 string.
 
 </td></tr>
 <tr><td width="50%">
